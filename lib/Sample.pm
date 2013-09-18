@@ -2,10 +2,20 @@ package Sample;
 use 5.008005;
 use strict;
 use warnings;
+use utf8;
 
 our $VERSION = "0.01";
 
+sub new {
+    my ($class, $args) = @_;
+    $args = +{} unless defined $args;
+    return bless $args, $class;
+}
 
+sub say {
+    my $self = shift;
+    'Hello TDD Boot Camp!';
+}
 
 1;
 __END__

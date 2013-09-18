@@ -47,10 +47,21 @@
       },
       "test" : {
          "requires" : {
+            "Devel::Cover::Report::Coveralls" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/SpringMT/Sample/issues"
+      },
+      "homepage" : "https://github.com/SpringMT/Sample",
+      "repository" : {
+         "url" : "https://github.com/SpringMT/Sample.git",
+         "web" : "https://github.com/SpringMT/Sample"
+      }
+   },
    "version" : "0.01"
 }
